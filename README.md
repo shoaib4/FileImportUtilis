@@ -105,6 +105,5 @@ Description: Once all data chunks have been processed and uploaded, the producer
 
 By addressing these challenges with the outlined solutions, we can efficiently process large CSV files stored in cloud blob storage without exceeding the memory limits of our service's running environment.
 
-PlantUML Diagram
 <img width="582" alt="Screenshot 2024-05-29 at 3 36 45 PM" src="https://github.com/shoaib4/FileImportUtilis/assets/34734357/d2426496-626e-4f6e-a24c-9886d8a4981e">
 
