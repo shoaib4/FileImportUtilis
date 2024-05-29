@@ -70,7 +70,6 @@ Producer Go Routine: Handles Track 1, focusing on downloading, processing, and u
 // It employs a context to manage cancellation signals across goroutines, ensuring graceful shutdown on errors or completion.
 func (fia *FileImportAuditUtility) s3OperationsForChunkCSVUploadAndNotify(ctx context.Context, cancel context.CancelFunc, bucket string,
 	fileByteSize int64, fileLength int64, inputUrl string, headerPresent bool, s3BatchUpdateChan chan s3BatchChanData, s3BatchErrorChan chan error){...}
-Consumer Go Routine: Manages Track 2, dealing with all database operations related to chunk processing and error handling.
 ```
 
 Consumer Go Routine: Manages Track 2, dealing with all database operations related to chunk processing and error handling.
